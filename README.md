@@ -33,15 +33,13 @@ If PIP is not installed, you can install it using the official guide.
 3. discord.py
 This is a Python library for interacting with the Discord API. Installed using PIP:
 
-bash
-Copy the code
-pip install discord.py
+`pip install discord.py`
+
 4. yt-dlp
 This is a fork of youtube-dl that is used to download videos and audio from YouTube and other platforms. Installed using PIP:
 
-bash
-Copy the code
-pip install yt-dlp
+`pip install yt-dlp`
+
 5. FFmpeg
 FFmpeg is a multimedia processing tool. It is used to convert video and audio into a format compatible with Discord. FFmpeg must be downloaded and installed separately:
 
