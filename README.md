@@ -69,3 +69,11 @@ Notes
 After installing all the dependencies and setting up the environment, you can run the bot by executing a Python script with the bot code.
 Make sure you have the appropriate access rights and permissions to run applications downloaded from external sources.
 After completing these steps, your bot should be ready to use and able to perform its functions on your Discord server.
+######################################## Social Credit ################################################
+How this code works:
+Command: Called with >credit + 50 @username "reason" or >credit - 50 @username "reason".
+Change of social credit: Depending on the entered + or -, the credit is added or subtracted.
+Data storage: Credit is stored in the file Social_credit.txt, and changes and command logs are recorded in Social_credit_logs.log.
+
+Make sure to create a Social credit folder in the root directory for the files.
+If you need more information or help with setup, let me know!
