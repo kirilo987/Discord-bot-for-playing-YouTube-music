@@ -4,8 +4,13 @@ from discord import FFmpegPCMAudio
 import yt_dlp as youtube_dl
 import asyncio
 import os
+import openai
+import http.client as client
 
 #####################################################
+
+openai.api_key = ""
+
 intents = discord.Intents.default()
 intents.message_content = True
 bot = commands.Bot(command_prefix=">", intents=intents)
@@ -139,6 +144,18 @@ async def l(ctx):
     else:
         await ctx.send("Бот не у голосовому каналі.")
 
+@bot.command(name='volume')
+async def change_volume(ctx, volume: int):
+    """Змінює гучність плеєра."""
+    if ctx.voice_client is None:
+        return await ctx.send("Бот не підключений до голосового каналу.")
+
+    if not 0 <= volume <= 100:
+        return await ctx.send("Будь ласка, вкажіть гучність у відсотках від 0 до 100.")
+
+    ctx.voice_client.source.volume = volume / 100  # Конвертуємо відсотки в значення від 0 до 1
+    await ctx.send(f"Гучність змінена на {volume}%")
+
 #####################################################
 # Соціал кредит часть чина короче
 #####################################################
@@ -183,7 +200,7 @@ async def social_credit(ctx, action: str, amount: int, member: discord.Member, *
     await ctx.send(f'Соціальний кредит {member.mention} змінено на {amount}. Новий кредит: {new_credit}. Причина: {reason}')
 
 #####################################################
-# Шось буде)))
+# Скоро буде
 #####################################################
 
-bot.run('YOU TOKEN')
+bot.run('DISCORD_TOCKEN')
