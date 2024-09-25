@@ -28,7 +28,7 @@ ytdl_format_options = {
     'format': 'bestaudio/best',
     'outtmpl': '%(extractor)s-%(id)s-%(title)s.%(ext)s',
     'restrictfilenames': True,
-    'noplaylist': True,
+    'noplaylist': False,  # Дозволяє обробку плейлистів
     'nocheckcertificate': True,
     'ignoreerrors': False,
     'logtostderr': False,
@@ -84,9 +84,21 @@ async def play(ctx, url):
 
     try:
         async with ctx.typing():
-            player = await YTDLSource.from_url(url, loop=bot.loop, stream=True)
-            ctx.voice_client.play(player, after=lambda e: print(f'Player error: {e}') if e else None)
-            await ctx.send(f'Відтворюється: {player.title}')
+            data = await YTDLSource.from_url(url, loop=bot.loop, stream=True)
+
+            # Якщо це плейлист, оброби всі треки
+            if isinstance(data, dict) and 'entries' in data:
+                for entry in data['entries']:
+                    player = await YTDLSource.from_url(entry['webpage_url'], loop=bot.loop, stream=True)
+                    ctx.voice_client.play(player, after=lambda e: print(f'Player error: {e}') if e else None)
+                    await ctx.send(f'Відтворюється: {player.title}')
+                    while ctx.voice_client.is_playing():
+                        await asyncio.sleep(1)
+            else:
+                # Відтворення одного треку
+                ctx.voice_client.play(data, after=lambda e: print(f'Player error: {e}') if e else None)
+                await ctx.send(f'Відтворюється: {data.title}')
+
     except Exception as e:
         await ctx.send(f"Сталася помилка: {e}")
 
@@ -198,6 +210,27 @@ async def social_credit(ctx, action: str, amount: int, member: discord.Member, *
     amount = amount if action == '+' else -amount
     new_credit = change_social_credit(member.id, amount, reason)
     await ctx.send(f'Соціальний кредит {member.mention} змінено на {amount}. Новий кредит: {new_credit}. Причина: {reason}')
+
+#####################################################
+# Кастомна команда хелпу
+#####################################################
+
+@bot.command(name='candyhelp', help="Виводить це повідомлення.")
+async def help_command(ctx):
+    embed = discord.Embed(title="Команди бота", color=discord.Color.blue())
+    embed.add_field(name=">join", value="Підключає бота до вашого голосового каналу.", inline=False)
+    embed.add_field(name=">play <URL>", value="Відтворює аудіо з YouTube.", inline=False)
+    embed.add_field(name=">lplay <filename>", value="Відтворює локальний аудіофайл.", inline=False)
+    embed.add_field(name=">pause", value="Призупиняє відтворення музики.", inline=False)
+    embed.add_field(name=">resume", value="Продовжує відтворення призупиненої музики.", inline=False)
+    embed.add_field(name=">stopm", value="Зупиняє відтворення музики.", inline=False)
+    embed.add_field(name=">leave", value="Виводить бота з голосового каналу.", inline=False)
+    embed.add_field(name=">volume <0-100>", value="Змінює гучність плеєра.", inline=False)
+    embed.add_field(name=">credit <+/-> <amount> <user> <reason>", value="Змінює соціальний кредит користувача.", inline=False)
+
+    await ctx.send(embed=embed)
+
+    bot.remove_command('help')
 
 #####################################################
 # Скоро буде
