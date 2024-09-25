@@ -1,4 +1,7 @@
 # Discord-bot-for-playing-YouTube-music
+
+>candyhelp
+
 Explanation
 Joining a voice channel: The >join command connects the bot to the voice channel where the user is.
 
