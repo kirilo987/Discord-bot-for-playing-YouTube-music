@@ -1,0 +1,86 @@
+# Privacy Policy
+
+1. Introduction
+This Privacy Policy outlines how your personal information is collected, used, and protected when you interact with the Discord bot (hereinafter referred to as "Bot"). By using the Bot, you consent to the collection and use of your data as described in this policy.
+
+2. Data Collection
+The Bot may collect and store the following types of data:
+- User information: Your Discord username, user ID, and any roles or permissions you have on the server.
+- Usage data: Logs of your interactions with the Bot, including commands used, time of interaction, and any data provided via those commands.
+- Social Credit Data: The Bot may track user behavior and activity on the server to calculate a social credit score.
+
+The Bot does not collect any personally identifiable information beyond what is available within Discord’s API.
+
+3. Use of Data
+The data collected by the Bot may be used for the following purposes:
+- Bot functionality: To provide the core features, such as music playback and the social credit system.
+- Server management: To allow server administrators to monitor user behavior and interactions on the server.
+- Improvement: To analyze usage patterns and improve the Bot’s functionality over time.
+
+Your data is not sold, shared, or distributed to third parties outside of the server on which the Bot is installed.
+
+4. Data Storage and Security
+The data collected by the Bot is stored securely on the hosting server. Reasonable measures are taken to ensure the protection of your data from unauthorized access or disclosure.
+
+The Bot only retains user data as long as it is necessary for providing the service. Data such as social credit scores may be reset or removed at the discretion of the server administrators.
+
+5. User Rights
+You have the following rights concerning your data:
+- Access: You may request access to the data the Bot has collected about you.
+- Correction: You may request corrections to any inaccurate data collected by the Bot.
+- Deletion: You may request the deletion of your data from the Bot, but this may impact your ability to use certain features.
+
+For requests regarding your data, contact the server administrator or the Bot developer.
+
+6. Third-Party Services
+The Bot may access third-party services, such as YouTube, to provide music playback. These services have their own privacy policies, and you are encouraged to review them separately. The Bot does not control the data handling practices of these third parties.
+
+7. Changes to Privacy Policy
+The Bot developer reserves the right to modify this Privacy Policy at any time. You are encouraged to review this policy periodically for updates. Continued use of the Bot after any changes signifies your acceptance of the updated policy.
+
+8. Contact Information
+If you have any questions or concerns regarding this Privacy Policy, please contact the server administrator or the Bot developer.
+
+---------------------------------------------
+
+Політика конфіденційності
+1. Вступ
+Ця Політика конфіденційності описує, як ваші персональні дані збираються, використовуються та захищаються під час взаємодії з ботом у Discord (далі — "Бот"). Використовуючи Бота, ви погоджуєтеся на збір і використання ваших даних відповідно до цієї політики.
+
+2. Збір даних
+Бот може збирати та зберігати наступні типи даних:
+
+Інформація про користувача: Ваше ім'я користувача в Discord, ідентифікатор користувача (ID) та будь-які ролі або права доступу на сервері.
+Дані про використання: Логи ваших взаємодій з Ботом, включаючи команди, що ви використовуєте, час взаємодії та дані, передані через команди.
+Дані соціального кредиту: Бот може відслідковувати поведінку користувачів на сервері для розрахунку соціального кредиту.
+Бот не збирає ніякої іншої інформації, яка б могла особисто ідентифікувати вас поза межами того, що доступно через Discord API.
+
+3. Використання даних
+Зібрані Ботом дані можуть бути використані для таких цілей:
+
+Функціональність бота: Для надання основних функцій, таких як програвання музики та система соціального кредиту.
+Управління сервером: Для надання адміністраторам можливості відслідковувати поведінку та взаємодію користувачів на сервері.
+Покращення роботи: Для аналізу патернів використання та покращення функціональності Бота з часом.
+Ваші дані не продаються, не поширюються і не передаються третім особам за межами сервера, на якому встановлений Бот.
+
+4. Зберігання даних та безпека
+Зібрані Ботом дані зберігаються на сервері хостингу. Вживаються всі розумні заходи для захисту ваших даних від несанкціонованого доступу чи розголошення.
+
+Дані зберігаються тільки протягом часу, необхідного для надання послуг. Дані, такі як соціальний кредит, можуть бути скинуті або видалені за рішенням адміністратора сервера.
+
+5. Права користувачів
+Ви маєте такі права щодо ваших даних:
+
+Доступ: Ви можете запросити доступ до даних, які Бот зібрав про вас.
+Виправлення: Ви можете попросити виправити будь-які неточності в зібраних Ботом даних.
+Видалення: Ви можете запросити видалення ваших даних із системи Бота, але це може вплинути на вашу здатність використовувати певні функції.
+Для запитів щодо ваших даних звертайтеся до адміністратора сервера або розробника Бота.
+
+6. Сторонні сервіси
+Бот може використовувати сторонні сервіси, такі як YouTube, для надання функцій програвання музики. Ці сервіси мають власні політики конфіденційності, які ви маєте переглянути окремо. Бот не контролює обробку даних цими сторонніми сервісами.
+
+7. Зміни до Політики конфіденційності
+Розробник Бота залишає за собою право вносити зміни до цієї Політики конфіденційності в будь-який час. Ви повинні періодично переглядати цю політику на наявність змін. Продовження використання Бота після змін означає вашу згоду з оновленими умовами.
+
+8. Контактна інформація
+Якщо у вас є питання або скарги щодо цієї Політики конфіденційності, будь ласка, звертайтеся до адміністратора сервера або розробника Бота.
