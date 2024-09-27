@@ -1,1 +1,61 @@
+# Terms of Service
 
+## 1. General Terms
+This bot (hereinafter referred to as the "Bot") is designed for use on Discord and provides the following features:
+- Playing music from platforms such as YouTube.
+- A social credit system that tracks users' actions and behavior on the server.
+
+By using this Bot, you agree to the following terms.
+
+## 2. Music Features Usage
+- You are responsible for playing only content that does not violate copyright laws. Any liability for the use of copyrighted content rests with the user.
+- The Bot does not guarantee the availability of all music sources due to technical or legal restrictions.
+- Abuse of the Bot’s music features, including excessive use or spamming commands, may result in restricted access to the Bot.
+
+## 3. Social Credit System
+- The Bot tracks users' actions, including activity, behavior, and tasks completed on the server, to evaluate their social credit score.
+- The social credit score influences your rights and access to certain server features. For example, a low score may limit access to music features or other server privileges.
+- Any attempts to bypass, manipulate, or influence the social credit system or other users' scores may result in temporary or permanent access restrictions to the Bot.
+
+## 4. Limitation of Liability
+- The server administrators and Bot developer are not responsible for any negative consequences related to the use of the Bot, including but not limited to data loss, privacy breaches, or any other issues arising from the use of music features or the social credit system.
+- You agree not to use the Bot for any illegal activity, violations of Discord's Terms of Service, or your server’s rules.
+
+## 5. Changes to Terms
+- The developer reserves the right to update or change these terms without prior notice. You agree to review these terms periodically for any updates.
+- Continued use of the Bot after changes to the Terms will constitute your acceptance of the updated terms.
+
+## 6. Contact Information
+If you have any questions or complaints, please contact the server administrator or the Bot developer.
+
+---------------------------------------------
+
+# Terms of Service (Умови користування)
+
+## 1. Загальні положення
+Цей бот (далі — "Бот") створений для використання у Discord і надає такі функції:
+- Програвання музики з платформ, таких як YouTube.
+- Система соціального кредиту, що відображає дії та поведінку користувачів на сервері.
+
+Використовуючи цього Бота, ви погоджуєтеся з наступними умовами.
+
+## 2. Використання музичних функцій
+- Ви маєте право програвати тільки контент, який не порушує авторські права. Будь-яка відповідальність за використання захищеного контенту лежить на користувачі.
+- Бот не гарантує доступність усіх музичних джерел через технічні або правові обмеження.
+- Зловживання музичними функціями Бота, включаючи надмірне використання або спам команд, може призвести до обмеження вашого доступу до нього.
+
+## 3. Система соціального кредиту
+- Бот відслідковує дії користувачів, включаючи їхню активність, поведінку та виконання завдань на сервері, для оцінки соціального кредиту.
+- Соціальний кредит впливає на ваші права та доступ до певних функцій сервера. Наприклад, низький рейтинг може обмежувати доступ до музичних функцій або інших привілеїв.
+- Будь-які спроби обійти систему соціального кредиту, маніпулювати нею або впливати на інших користувачів з метою зміни їх рейтингу можуть призвести до тимчасового або постійного блокування доступу до Бота.
+
+## 4. Обмеження відповідальності
+- Адміністрація сервера та розробник Бота не несуть відповідальності за можливі негативні наслідки, пов'язані з використанням Бота, включаючи, але не обмежуючись втратами даних, порушенням конфіденційності або будь-якими іншими проблемами, які можуть виникнути внаслідок використання музичних функцій чи системи соціального кредиту.
+- Ви погоджуєтеся не використовувати Бота для порушення законодавства, правил платформи Discord або правил вашого сервера.
+
+## 5. Зміни до умов
+- Розробник залишає за собою право вносити зміни до цих умов без попередження. Ви зобов'язуєтеся регулярно перевіряти актуальні умови використання.
+- Продовжуючи користуватися Ботом після змін до Умов, ви погоджуєтеся з оновленими правилами.
+
+## 6. Контактна інформація
+Якщо у вас виникають питання або скарги, звертайтеся до адміністратора сервера або розробника Бота.
