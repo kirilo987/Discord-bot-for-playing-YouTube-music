@@ -1,4 +1,4 @@
-# Privacy Policy
+Privacy Policy
 
 1. Introduction
 This Privacy Policy outlines how your personal information is collected, used, and protected when you interact with the Discord bot (hereinafter referred to as "Bot"). By using the Bot, you consent to the collection and use of your data as described in this policy.
